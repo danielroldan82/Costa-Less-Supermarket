@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Supermercado Costa Less</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- HEADER-->
+  
+  <header class="header">
+    <div class="menu container">
+      <span class="logo">Costa Less</span>
+    
+      <nav class="navbar">
+        <ul>
+          <li><a href="#ofertas-destacadas">Ofertas destacadas</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <ul>
+        <li class="submenu">
+          <img src="img/carrito compras.png" id="img-carrito" alt="Carrito">
+          <div id="carrito">
+            <table id="lista-carrito">
+              <thead>
+                <tr>
+                  <th>Imagen</th>
+                  <th>Nombre</th>
+                  <th>Precio</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="header-content container">
+      <div class="header-img">
+        <img src="img/header foto supermercado.jpg" alt="Supermercado Costa Less">
+      </div>
+      <div class="header-txt">
+        <h1>English supermarket</h1>
+        <p>Especialistas en comida británica</p>
+        
+      </div>
+    </div>
+  </header>
+
+  <!-- SECCIÓN OFERTAS -->
+   
+  <h2 class="featured-title" id="ofertas-destacadas">OFERTAS DESTACADAS</h2>
+
+  <section class="ofert container">
+
+    <div class="ofert-1">
+        <div class="ofert-img">
+          <img src="img/Fish & chips.png" alt="">
+        </div>
+          <div class="product-txt">
+            <h3>Fish & Chips</h3>
+            <p>Pescado frito con patatas</p>
+            <p class="precio">
+              <span class="precio-original">12.25€</span>
+              <span class="precio-descuento">9.99€</span>
+            </p>
+            <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+          </div>
+      </div>
+
+   <div class="ofert-1">
+        <div class="ofert-img">
+          <img src="img/Mince Pies.jpg" alt="">
+        </div>
+          <div class="product-txt">
+            <h3>Mince Pies</h3>
+            <p>Empanadillas de carne</p>
+            <p class="precio">
+              <span class="precio-original">10.50€</span>
+              <span class="precio-descuento">8.50€</span>
+            </p>
+            <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+          </div>
+      </div>
+
+    <div class="ofert-1">
+        <div class="ofert-img">
+          <img src="img/FamilyBeefWellington.webp" alt="">
+        </div>
+          <div class="product-txt">
+            <h3>Beef Wellington</h3>
+            <p>Solomillo Wellington</p>
+            <p class="precio">
+              <span class="precio-original">25.00€</span>
+              <span class="precio-descuento">19.99€</span>
+            </p>
+            <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- SECCIÓN PRODUCTOS -->
+  <main class="products container" id="productos">
+    <h2>Productos</h2>
+    <div class="product-content">
+
+      <div class="product">
+        <img src="img/Desayuno Inglés.webp" alt="Pack English Breakfast">
+        <div class="product-txt">
+          <h3>Pack English Breakfast</h3>
+          <p>Surtido variado de productos típicos de desayuno inglés</p>
+          <p class="precio">40.85€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/Quaker Porridge Oats.webp" alt="Porridge Oats">
+        <div class="product-txt">
+          <h3>Porridge Oats</h3>
+          <p>Copos de avena 1.5Kg</p>
+          <p class="precio">14.60€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/Cadbury Seleción.webp" alt="Cadbury Selection Box">
+        <div class="product-txt">
+          <h3>Cadbury Selection Box</h3>
+          <p>Selección de chocolates Cadbury 174g</p>
+          <p class="precio">19.90€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/Live Savers Hard Candy.jpg" alt="Life Savers Candy">
+        <div class="product-txt">
+          <h3>Life Savers Hard Candy</h3>
+          <p>Caramelos duros Salvavidas</p>
+          <p class="precio">8.00€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/Walker Patatas Chips.jpg" alt="Walkers Chips">
+        <div class="product-txt">
+          <h3>Walkers Chips</h3>
+          <p>Patatas chips Walkers 20 uds</p>
+          <p class="precio">20.00€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/Cherry Coke 24x330ml.avif" alt="Cherry Coke">
+        <div class="product-txt">
+          <h3>Cherry Coke</h3>
+          <p>Coca Cola sabor cereza 24x330ml</p>
+          <p class="precio">17.40€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/Lea & Perrins Salsa 568ml.jpg" alt="Lea & Perrins Worcestershire Sauce">
+        <div class="product-txt">
+          <h3>Lea & Perrins Worcestershire Sauce</h3>
+          <p>Salsa Lea & Perrins 568ml</p>
+          <p class="precio">11.40€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/Mint Sauce 2x165g.jpg" alt="Mint Sauce Colman's">
+        <div class="product-txt">
+          <h3>Mint Sauce Colman’s</h3>
+          <p>Salsa de menta Colman’s 2x165g</p>
+          <p class="precio">13.10€</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar al carrito</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+ 
+    
+
+  <!-- SECCIÓN ICONOS SERVICIOS -->
+
+   <div id="servicios" class="servicios">
+     <h2>servicios</h2>
+     <p>Servicio a domicilio / Abierto 12 horas al dia / Programa de fidelización</p>
+  </div>
+
+  <section class="icons container">
+    <div class="icon-1">
+      <div class="icon-img">
+        <img src="img/servicio-domicilio-logo-icon-design-125309453.webp" alt="Servicio a domicilio">
+      </div>
+      <div class="icon-txt">
+        <h3>Servicio a domilicio</h3>
+        <p>Gratis para pedidos superiores a 100€</p>
+      </div>
+    </div>
+
+    <div class="icon-1">
+      <div class="icon-img">
+        <img src="img/abierto 12 horas.jpeg" alt="Horario">
+      </div>
+      <div class="icon-txt">
+        <h3>Abierto 12 horas al día</h3>
+        <p>Todos los días del año</p>
+      </div>
+    </div>
+
+    <div class="icon-1">
+      <div class="icon-img">
+        <img src="img/programa de fidelización.jpeg" alt="Fidelización">
+      </div>
+      <div class="icon-txt">
+        <h3>Programa de fidelización</h3>
+        <p></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- pie de página -->
+   
+  <footer class="footer">
+    <div id="contacto" class="contacto">
+     <h2>contacto</h2>
+     
+  </div>
+    <div class="footer-content container">
+      <div class="footer-item">
+        <img src="img/dirección.png" alt="Dirección Costa Less">
+        <h3>Dirección</h3>
+        <p>Avd. Federico García Lorca, 4.<br>Benalmádena (Málaga)</p>
+      </div>
+
+      <div class="footer-item">
+        <img src="img/teléfono.png" alt="Teléfono Costa Less">
+        <h3>Teléfono</h3>
+        <p>952 444 865</p>
+      </div>
+
+      <div class="footer-item">
+        <img src="img/correo.png" alt="Correo Costa Less">
+        <h3>Correo Electrónico</h3>
+        <p>direccion@costaless.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
