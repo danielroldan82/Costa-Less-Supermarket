@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // busca tbody del carrito (compatibilidad con distintos ids)
+  
   const carritoBody = document.querySelector('#lista-carrito tbody') || document.getElementById('carrito-body');
   const carritoTotal = document.getElementById('carrito-total') || document.getElementById('carrito-total');
   const vaciarBtn = document.getElementById('vaciar-carrito');
@@ -128,7 +128,6 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
   });
-
-  // render inicial desde localStorage
+  
   render();
 });
