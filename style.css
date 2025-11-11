@@ -48,8 +48,7 @@ font-family: "Poppins", sans-serif;
 .menu .navbar ul { display: flex; gap: 25px; }
 .menu .navbar ul li a { color: #000; font-weight: 500; transition: color 0.3s ease; }
 .menu .navbar ul li a:hover { color: rgb(99, 96, 96); }
-
-/* Header principal (contenido dentro del header) */
+ 
 .header-content { 
   display: flex; justify-content: space-between; align-items: center; flex: 1; padding: 0 50px; gap: 32px;
 }
@@ -127,7 +126,7 @@ th, td { color: #111; font-size: 14px; padding: 5px; vertical-align: middle; }
 .product-txt p { font-size: 14px; color: #333; }
 .precio { font-weight: bold; margin: 10px 0; }
 
-/* Iconos / Servicios */
+/* Servicios */
 #servicios.servicios {
   max-width: 2000px; margin: 100px auto 0px; padding: 20px 20px; text-align: center; background: transparent; border-radius: 8px;
 }
@@ -190,5 +189,5 @@ th, td { color: #111; font-size: 14px; padding: 5px; vertical-align: middle; }
 @media (max-width:600px) {
   .precio-descuento { font-size: 18px; }
   .precio-original { font-size: 14px; }
-  #lista-carrito th:first-child, #lista-carrito td:first-child { display:none; } /* oculta columna imagen en móvil si hace falta */
+  #lista-carrito th:first-child, #lista-carrito td:first-child { display:none; } 
 }
