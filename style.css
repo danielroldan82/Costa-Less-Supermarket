@@ -48,7 +48,8 @@ font-family: "Poppins", sans-serif;
 .menu .navbar ul { display: flex; gap: 25px; }
 .menu .navbar ul li a { color: #000; font-weight: 500; transition: color 0.3s ease; }
 .menu .navbar ul li a:hover { color: rgb(99, 96, 96); }
- 
+
+/* Header principal (contenido dentro del header) */
 .header-content { 
   display: flex; justify-content: space-between; align-items: center; flex: 1; padding: 0 50px; gap: 32px;
 }
@@ -95,7 +96,17 @@ th, td { color: #111; font-size: 14px; padding: 5px; vertical-align: middle; }
 }
 
 .ofert-1 {
-  display: flex; align-items: center; flex-basis: calc(33.3% - 15px); padding: 35px; background-color: #f9f9f9; border-radius: 10px;
+  display: flex; 
+  align-items: center; 
+  flex-basis: calc(33.3% - 15px); 
+  padding: 35px; 
+  background-color: #f3f3f3; 
+  border-radius: 10px;
+  transition: transform 0.3s ease; 
+}
+
+.ofert-1:hover {
+  transform: scale(1.03); 
 }
 
 .ofert-img { flex-basis: 50%; margin-right: 15px; text-align: center; }
@@ -126,7 +137,7 @@ th, td { color: #111; font-size: 14px; padding: 5px; vertical-align: middle; }
 .product-txt p { font-size: 14px; color: #333; }
 .precio { font-weight: bold; margin: 10px 0; }
 
-/* Servicios */
+/* Iconos / Servicios */
 #servicios.servicios {
   max-width: 2000px; margin: 100px auto 0px; padding: 20px 20px; text-align: center; background: transparent; border-radius: 8px;
 }
